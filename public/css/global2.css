@@ -1,0 +1,749 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body::after {
+    content: '';
+    width: 250%;
+    height: 460px;
+    background: rgba(241, 244, 248, 0.5);
+    position: fixed;
+    top: 70%;
+    right: 0;
+    left: -36%;
+    margin: auto;
+    z-index: -1;
+    -webkit-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+}
+
+body,
+div,
+input,
+textarea,
+button,
+a,
+label,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+span {
+    outline: none !important
+}
+
+.nav-parent {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.top-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 22px 2%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.top-nav img.logo-nav {
+    width: 200px;
+
+}
+
+.top-nav ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.top-nav ul li {
+    display: inline-block;
+}
+
+ul.nav-drop {
+    position: absolute;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 6px 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 6px 5px;
+    padding: 10px 0;
+    display: none;
+
+}
+
+.drop-child{
+    flex-grow: 1;
+}
+
+.drop-child a{
+    width: 30%;
+    font-weight: normal !important;
+
+}
+
+.wide-drop .nav-drop{
+    display: block;
+    position: unset;
+    box-shadow: none;
+    border-right: 1px solid #ddd;
+
+
+}
+
+
+ul.nav-drop li {
+    display: block;
+
+}
+.wide-drop{
+    width: 100%;
+    right: 0;
+    position: absolute;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 6px 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 6px 5px;
+    padding: 10px 0;
+    display: none;
+
+}
+
+ul.nav-drop li a {
+    margin: 0;
+    width: 100%;
+    padding: 10px 24px !important;
+    min-width: 115px;
+    transition: all 0.3s;
+}
+
+.top-nav ul li:hover ul.nav-drop {
+    display: block;
+}
+
+.top-nav ul li:hover .wide-drop{
+    display: flex;
+}
+
+.top-nav ul li a {
+    padding: 20px 15px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.top-nav ul li a:hover {
+    color: #555;
+}
+
+body .top-nav .drop-child a:hover{
+    color: #72BF44;
+
+}
+
+.nav-second{
+    position: fixed;
+    right: 0;
+    top: 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px;
+    background: #fff;
+}
+
+.nav-second .top-nav ul li a:hover {
+    background: #72BF44;
+    color: #fff;
+
+}
+
+ul.nav-drop li a:hover {
+    background: #72BF44;
+    color: #fff;
+}
+
+.nav-second .bottom-nav {
+    /* display: none; */
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.nav-second .top-nav {
+   
+    padding: 0px 3%;
+    
+    width: 100%;
+    z-index: 15;
+}
+
+.second-search{
+    display: none !important;
+}
+
+.nav-second .second-search{
+    display: inline-block !important;
+}
+
+.nav-second .top-nav img.logo-nav {
+    width: 140px;
+}
+
+
+.search-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0 15px;
+    border-radius: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px;
+    background: #fff;
+}
+
+.search-nav input {
+    border: none;
+    padding: 12px 0;
+    width: 450px;
+}
+
+.search-nav button {
+    color: #72bf44;
+    border: none;
+    background: none;
+}
+
+.bottom-nav {
+    text-align: center;
+    margin: 25px 0;
+}
+.info-box-title {
+    text-align: center;
+    position: relative;
+    top: 35px;
+}
+
+.info-box-title h1 {
+    border-radius: 23px;
+    border: 1px solid #0072BC;
+
+    color: #fff;
+    background: #0072BC;
+    font-size: 24px;
+    padding: 8px 37px;
+    display: inline-block;
+    -webkit-box-shadow: #ddd 0 6px 0;
+    box-shadow: #ddd 0 6px 0;
+}
+
+.info-box-parent {
+    margin: 0 4%;
+}
+
+.info-body {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+    border-radius: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background: #fff;
+    padding: 30px 2.5%;
+}
+.search-page{
+    flex-direction: column;
+}
+.search-page h2{
+    color: #0072bc;
+    font-size: 31px;
+    margin: 0;
+    margin-left: 49px;
+}
+.search-page p{
+    color: #6e6e6e;
+    margin: 0;
+    margin-left: 50px;
+}
+.search-page hr{
+    width: 100%;
+    opacity: 0.2;
+}
+.btn1 {
+    border: none;
+    background: #72BF44;
+    color: #fff;
+    border-radius: 27px 8px;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.input1 {
+    display: block;
+    border: #ddd 1px solid;
+    border-radius: 18px;
+    padding: 9px 19px;
+    width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+    cursor: pointer;
+    color: #0072bc !important;
+    border-radius: 50px !important;
+    background: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #0072bc !important;
+}
+
+.footer-parent {
+    border-top: #72bf44 1px solid;
+    margin-top: 120px;
+    background: #F6F6F6;
+    padding-bottom: 40px;
+
+}
+
+.footer-parent h4 {
+    color: #0072bc;
+    padding-top: 25px;
+    font-size: 18px
+}
+
+.footer-parent ul {
+    list-style: none;
+}
+
+.footer-parent ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 14px;
+    margin-bottom: 17px;
+    display: block;
+}
+
+.footer-parent ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-img img {
+    width: 80%;
+    padding: 50px 15px;
+}
+
+.contact-footer a.big-phone {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 50px;
+    display: block;
+}
+
+.contact-footer p {
+    color: #72bf44;
+    margin: 0;
+}
+
+.contact-footer img {
+    width: 60%;
+}
+
+.footer-copy {
+    background: #0072bc;
+    color: #fff;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+.med-card {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+    border-radius: 15px;
+    width: 250px;
+    overflow: hidden;
+    margin: 30px auto;
+    display: inline-block;
+}
+
+.med-card .img-parent img {
+    position: absolute;
+    height: 80%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+.med-card .img-parent {
+    background: url('/img/bg2.jpg');
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    position: relative;
+}
+
+.med-card h3 {
+    margin: 0;
+    font-size: 12px;
+    color: #72bf44;
+}
+
+.med-card h1 {
+    margin: 0;
+    font-size: 20px;
+    color: #0072bc;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    min-height: 60px;
+}
+
+.med-card .btn1 {
+    font-size: 14px;
+}
+
+.med-card .btn-parent {
+    text-align: right;
+}
+
+
+.cat-card {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.21) 0 0 5px;
+}
+
+.cat-list {
+    padding-top: 60px;
+}
+
+.cat-list a {
+    text-decoration: none;
+}
+
+.cat-list .row {
+    width: 100%;
+}
+
+.cat-card h2 {
+    width: 100%;
+    padding: 8px 4%;
+    background: rgba(0, 114, 188, 0.65);
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.3s;
+}
+
+.cat-card h2 span {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    color: rgba(114, 191, 68, 0.8);
+    border-radius: 50px;
+    text-align: center;
+    top: 0;
+    bottom: 4px;
+    right: 4%;
+    margin: auto;
+    font-size: 19px;
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.cat-card:hover h2 {
+    padding-bottom: 16px;
+    background: rgba(114, 191, 68, 0.8);
+}
+
+.cat-card:hover h2 span {
+    opacity: 1;
+}
+
+
+.card-info-parent {
+    padding: 20px;
+    text-align: left;
+}
+
+.cards-table {
+    width: 100%;
+    text-align: center;
+}
+
+.cards-table .med-card {
+    margin: 10px 1%;
+}
+
+.pagenation-parent {
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    border-radius: 50px;
+    border: #ddd 1px solid;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+}
+
+.pagenation-parent li {
+
+    margin: 0 7px;
+}
+
+.pagenation-parent li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #888;
+    min-width: 25px;
+    min-height: 25px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.pagenation-parent .page-active {
+    border: #0072BC 1px solid;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.pagenation-parent li.pre-btn a,
+.pagenation-parent li.nxt-btn a {
+    color: #0072BC;
+    font-weight: bold;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.banner-logo {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.about-contact-parent h3 {
+    color: #72BF44;
+
+}
+
+.about-contact-parent p {
+    color: #222;
+    line-height: 2;
+
+}
+
+.a-c-contact {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.a-c-contact a {
+    text-decoration: none;
+    color: #222;
+    margin: 20px 0;
+    display: block;
+}
+
+.a-c-contact a span {
+    color: #0072BC;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-contact-parent .btn-parent {
+    text-align: right;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: var(--c2);
+    height: 100%;
+    padding: 0 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+
+}
+
+@media(max-width : 768px) {
+    body .nav-parent ul {
+        display: none;
+    }
+
+    body .nav-second .top-nav {
+        padding: 10px 0;
+    }
+
+    body .nav-btn {
+        display: block;
+
+    }
+
+    body .top-nav .a-media {
+        display: block;
+        margin: auto;
+    }
+
+    body .slider-item img {
+        width: 50%;
+    }
+
+    body .slide-head h1 {
+
+        text-align: center;
+    }
+    body .who-are-parent img{
+        display: block;
+        margin: auto;
+        
+    }
+    body .learn-more-list p{
+        width: 100%;
+        padding: 17px 5px 17px 65px;
+    }
+    body .home-banner{
+        display: none;
+    }
+    body .contact-info{
+        width: 100%;
+    }
+    .footer-img img{
+        display: block;
+        margin: auto;
+    }
+    body footer{
+        text-align: center;
+    }
+     body .info-body{
+         padding: 30px 8%;
+     }
+     body .search-nav input{
+         width: 100%;
+     }
+     
+     body .search-nav{
+         width: 90%;
+     }
+     body .slick-next,
+     body .slick-prev{
+        top: 20%;
+     }
+     .pro-head h1{
+      text-align: center;
+     }
+     body .pro-head img{
+         width: 70%;
+     }
+    body .cards-table .med-card{
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    body .banner-logo{
+        width: 70%;
+
+    }
+    body .cat-card {
+background-size: cover;
+background-repeat: no-repeat;
+    }
+  body .cat-list{
+       justify-content: center;
+    
+    }
+    .pro-head .category-span{
+        
+    text-align: center;
+    width: 100%;
+    display: block;
+    }
+    .pro-head .code-span{
+        text-align: center;
+    width: 100%;
+    display: block;
+    }
+    body .direc-parent img{
+        width: 50%;
+    }
+    body .info-header .cat-cover{
+        width: 100%;
+        height: 200px;
+        display: block;
+        margin: auto;
+        background-size: cover;
+        background-position: center;
+        border-radius: 0;
+        position: absolute;
+        top: -40px;
+        left: 0;
+    }
+    body .info-header h1{
+        margin-top: 200px;
+    }
+}
+@media(max-width: 575px ){
+    .med-card{
+        display: block;
+        margin: auto;
+    } 
+        
+}

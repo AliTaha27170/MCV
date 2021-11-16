@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" href="/css/home.css">
 
-<div class="home-head">
+<!-- <div class="home-head">
 
     <div>
         <div class="Home-slider">
@@ -275,7 +275,127 @@
         </div>
 
     </div>
+</div> -->
+ <!-- New Slider -->
+<!-- Slider main container -->
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide" data-aos="fade-zoom-in"  data-aos-delay="500">
+        <div class="swiper-slide__title" >
+            <h2>Diet</h2>
+                <p>
+                    Healthy Eating Has Many Advantages for a Healthy Life and a Life Free of Diseases. 
+                    Combining a Balanced Diet with Physical Activity Will Help Further in Maintaining a Healthy Lifestyle. 
+                    Exercise Daily, Eat the Right Kinds of Food, Stay Clean, and You Will Feel Good Automatically.
+                </p>
+        </div>
+            <img src="{{ asset('img/covers2/c1.jpg') }}" alt="Placeholder image with tag Apple">
+        </div>
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Minerals</h2>
+            <p>
+                Just like vitamins, Minerals Help Your Body Grow, Develop and Stay Healthy. 
+                Minerals Perform Various Vital operations, Including Keeping Your Bones, Muscles, Heart and Brain. 
+                Daily Intakes of Several Minerals Are Necessary for The Continued Basic Functioning of the Human Body.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c9.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+        <div class="swiper-slide">
+        <div class="swiper-slide__title" >
+            <h2>Baby Foods</h2>
+            <p>
+                Children Grow Rapidly and Move from One Stage to Another, Especially When They Begin to Active, Move and Learn. So, Parents Should Pay Attention to The Best Healthy Foods for Them and Choose the Most Useful and Rich Food Products with All the Nutritional Values.
+            </p>
+        </div>
+            <img src="{{ asset('/img/covers2/c7.jpg') }}" alt="Placeholder image with tag Microsoft / Xbox" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Vitamins</h2>
+            <p>              
+              Vitamins Allow Your Body to Grow and Develop. They Also Play Important Roles in Bodily Functions Such as Metabolism, Immunity and Digestion. The Best Way to Meet Your Vitamin Needs is to Eat a Balanced Diet Containing a Variety of Foods. If You Can't Meet Your Needs through Food Alone, You May Require Dietary Supplements.                                                               
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c8.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Oils</h2>
+            <p>
+              Natural Oils Are Characterized by The Fact That They Do Not Contain Chemicals, Also That It Has a Role in Maintaining the Beauty and Health of the Body. It is Used to Treat Skin, Scalp and Hair Problems and to Improve Nails and Dry skin.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c2.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Natural Flora</h2>
+            <p>            
+               Probiotics are Nutritional Supplements of Living Bacteria or Yeasts, Believed to Be Healthy for the Human Body. These Treatments Are Always Recommended by Some Physicians and Are Often Recommended by Dietitians after Taking a Course of Antibiotic Therapy.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c5.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Anti-oxidants</h2>
+            <p>     
+               The Importance of Anti-Oxidants for Your Body is Based on Its Active Role in Strengthening the Immune System, Which Reduces the Risk of Diseases and Enhancing the Body’s Ability to Fight Them. 
+                In Addition to the Positive Changes It Causes in Age - Related Blood Vessels. And The Elderly Who Are Taking It Reduce Their Aging Symptoms by an Equivalent of 15 to 20 years within 6 Weeks.                      
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c6.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Tonics</h2>
+            <p>   
+                Many Studies Have Confirmed That Food Directly Affects an Individual’s sexual Health. In Fact, Promoting the Sexual Desire Isn’t Difficult but All It Takes is to Include Some Foods in Your Diet and The Use of Some Natural Sexual Tonics. The Principle of the Functioning of These Drugs is to Expand the Blood Vessels, Which Facilitates Erection and Solves the Problems of Impotence.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c3.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Cereals</h2>
+            <p>             
+             Cereal Is a Delicious Way to Get Your Kid Breakfast. Just Pour the Cereal, Add Milk and Your Kid Favorite Fresh Fruit, and There He/She Will Have the Healthiest Breakfast Rich in the Nutritional Values He/she Needs to Complete the Day Actively and Joyfully.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/c4.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+        <div class="swiper-slide">
+            <div class="swiper-slide__title" >
+            <h2>Vitamin Water</h2>
+            <p>             
+                 Stay hydrated while you enhance your water drinking experience with the vitamins and electrolytes in the many flavors of vitamin water.
+            </p>
+        </div>
+            <img src="{{ asset('img/covers2/Vitamin Water.jpg') }}" alt="Placeholder image with tag Google / Android" loading="lazy">
+        </div>
+
+    </div>
+
+   
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
 </div>
+ <!--End Of New Slider -->
 <div class="home-banner">
     <div class="container">
         <div class="row">
@@ -343,7 +463,7 @@
 </div>
 --}}
 
-<div class="hf-parent">
+<!-- <div class="hf-parent">
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
@@ -370,9 +490,37 @@
         </div>
 
     </div>
-</div>
+</div> -->
+ <!-- ======= About Us Section ======= -->
+ <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-<div class="info-box-parent">
+        <div class="row no-gutters">
+          <div class="col-lg-6 video-box">
+            <img src="{{ asset('/img/family1.svg') }}" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
+
+            <div class="section-title">
+              <h2>Health Family</h2>
+                    <p>
+                        Health is a Quality of Family’s Life Involving Dynamic Interaction and Interdependence among
+                        the Individual’s Physical state, Their Mental and Emotional Reactions, and the Social Context
+                        in Which the Individual Exists. There are Many Factors that Influence Your Family Health, but
+                        Three Major Components Contribute to General Well-Being: Self-Awareness, a Balanced Diet and,
+                        Regular Physical Activity.
+                    </p>
+                    <button class="new-button">Find Products</button>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+<div class="info-box-parent" data-aos="fade-down" data-aos-duration="1000">
     <div class="info-box-title">
         <h1>Learn More</h1>
     </div>
@@ -489,14 +637,14 @@
 <div>
 </div>
 
-<div class="info-box-parent">
+<div class="info-box-parent" data-aos="fade-zoom-in"  data-aos-delay="200">
     <div class="info-box-title">
         <h1>Top Prudcts</h1>
     </div>
     <div class="info-body">
         <div class="cards-parent">
 
-            @foreach($best_sellers as $product)
+            <!-- @foreach($best_sellers as $product)
                 <div class="card-item">
                     <div class="med-card">
                         <div class="img-parent">
@@ -511,8 +659,28 @@
                         </div>
                     </div>
                 </div>
-            @endforeach
-
+            @endforeach -->
+            @foreach($best_sellers as $product)
+            <div class="card card-item">
+    <img src="/img/products/{{$product->product->image}}" alt="" />
+    <div class="card-body">
+      <div class="row">
+        <div class="card-title">
+          <h4>{{$product->product->category->name}}</h4>
+        </div>
+      </div>
+      <hr />
+      <p>
+      {{$product->product->name}}.
+      </p>
+      <div class="btn-group">
+        <div class="btn">
+          <a href="/products/{{$product->product->id}}">Preview Product</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  @endforeach
 
         </div>
     </div>
@@ -586,6 +754,28 @@ $(".first-lm").click();
 
     $(".nav-second").removeClass("nav-second");
     
+
+    var x = document.querySelector(".swiper-container")
+    x.style.height = window.innerHeight+"px";
+    $(window).on('scroll', function() {
+  var Wscroll = $(window).scrollTop();
+  var header_area = $('.top-nav');
+  var navbar_fixed_top = 'header-fix';
+
+  if (Wscroll > 100) {
+      header_area.addClass(navbar_fixed_top);
+  } else {
+      header_area.removeClass(navbar_fixed_top);
+  }
+
+})
 </script>
+<style>
+    .top-nav {
+    position: fixed;
+    width: 100%;
+}
+
+</style>
 @endpush
 @endsection

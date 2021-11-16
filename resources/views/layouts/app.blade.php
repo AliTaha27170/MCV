@@ -13,19 +13,17 @@
     <link rel="stylesheet" href="/libs/slick/slick.css">
     <link rel="stylesheet" href="/libs/slick/slick-theme.css">
     <link rel="stylesheet" href="/libs/sider/css/sidebar.min.css">
+    <link rel="stylesheet" href="{{URL::asset('libs/aos/css/aos.css')}}">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/new-css-file.css">
     {{-- <link rel="icon" href="{{URL::asset('/img/logo.png')}}"> --}}
-
-
     <script src="/libs/jquery-3.4.1.min.js"></script>
     <script src="/libs/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
     <script src="/libs/slick/slick.min.js"></script>
     <script src="/libs/sider/js/sidebar.js"></script>
-
 </head>
-
-
 <body>
-
+<button id="scroll_top"><i class="fa fa-arrow-up"></i></button>
     <nav class="nav-parent nav-second">
         <div class="top-nav">
             <button id="open-left" class="fa fa-bars nav-btn"></button>
@@ -51,9 +49,7 @@
                 <li><a href="/contactUs">Contact us</a></li>
                 <li><a href="/productsList">Products List</a></li>
                 <li class="second-search"><a><span class="fa fa-search"></span></a></li>
-
             </ul>
-
         </div>
         <div class="bottom-nav">
             <div class="search-nav">
@@ -73,6 +69,8 @@
             $('.nav-second .bottom-nav').slideToggle()
         });
     </script>
+
+
 
     <div class="sidebar" id="sidebar">
         <div class="close">
@@ -120,7 +118,7 @@
         <div class="footer-parent">
     
             <div class="container">
-                <div class="row">
+                <div class="row footer-row">
                     <div class="col-md-4">
                         <div class="footer-img">
     
@@ -152,15 +150,13 @@
                         </ul>
                     </div>
                     <div class="col-md-4 contact-footer">
-                        <a href="#" class="big-phone">
-                            <img src="/img/contact-footer.svg" alt="">
-                            <br><br>
-                            <p>&nbsp;&nbsp;&nbsp;&nbsp;(301) 327-7339
-                            </p>
-                        </a>
+                        <h4>Contact US:</h4>
+
+       
                         
                         <ul class="a-c-contact">
-                            <li><a href="#"><span class="fa fa-envelope-o"></span>info@mcvpharma.com</a></li>
+                            <li><a href="#"><span class="fa fa-phone"></span>    (301) 327-7339
+                            </a><a href="#"><span class="fa fa-envelope-o"></span>info@mcvpharma.com</a></li>
                             <li><a href="#"><span class="fa fa-map-marker"></span>7184 TROY HILL DRIVE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELKRIDGE, MD 21075 ,USA</a></li>
                         </ul>
                     </div>
@@ -168,16 +164,18 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copy">MCV Pharma- All Rights Reserved &copy;2019</div>
+        <div class="footer-copy">MCV Pharma- All Rights Reserved ©<script>document.write(new Date().getFullYear())</script></div>
     </footer>
-
     <script>
         $(".s-menu a").click(function () {
             $(this).next().filter("ul").slideToggle(500);
         });
     </script>
     @stack('page_scripts')
-    
+    <script src="{{URL::asset('libs/aos/js/aos.js')}}"></script>
+    <script src="{{ asset('js/swiper-bundle.min.js') }}"></script>
+    <script src="{{ asset('js/scrolltotop.js') }}"></script>
+    <script src="{{ asset('js/new-js-file.js') }}"></script>
 </body>
     
 </html>

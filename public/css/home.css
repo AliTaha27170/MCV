@@ -1,0 +1,245 @@
+.Home-slider {
+    margin-bottom: 0px !important;
+}
+
+.slick-next {
+    right: 25px !important;
+    z-index: 200 !important;
+}
+
+.slick-prev {
+    left: 25px !important;
+    z-index: 200 !important;
+}
+
+.card-item {
+    text-align: center;
+}
+
+.Home-slider .slick-dots {
+    bottom: 10px !important;
+}
+
+.slider-item img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search-nav {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0 15px;
+    border-radius: 50px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 1px 5px;
+    background: #fff;
+}
+
+.search-nav input {
+    border: none;
+    padding: 12px 0;
+    width: 450px;
+}
+
+.search-nav button {
+    color: #72bf44;
+    border: none;
+    background: none;
+}
+
+.bottom-nav {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.home-head {
+    background-image: url('/img/bg3.jpg');
+    padding-top: 210px;
+    background-size: cover;
+}
+
+.slide-head {
+    margin: 50px 0px;
+}
+
+.slide-head h1 {
+    color: #0072bc;
+    font-size: 40px;
+}
+
+.slide-head p {
+    line-height: 2;
+}
+
+.home-banner {
+    text-align: center;
+    background: #fff;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 4px 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 5px;
+    padding: 15px 0;
+}
+
+.home-banner img {
+    width: 40px;
+    display: inline-block;
+    text-align: center;
+}
+
+.home-banner p {
+    color: #6E6E6E;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.who-are-parent .img-parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.who-are-parent img {
+    width: 80%;
+    padding: 50px 15px;
+}
+
+.who-are-parent p {
+    line-height: 2;
+    margin-top: 50px;
+}
+
+.btn-parent {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+
+.learn-more-parent {
+    background-image: url('/img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+}
+
+.learn-more-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.learn-more-list p {
+    background: #fff;
+    border-radius: 8px;
+    min-width: 250px;
+    padding: 10px 5px 10px 65px;
+    display: inline-block;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+    color: #111;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.learn-more-list li {
+    position: relative;
+}
+
+.learn-more-img {
+    width: 52px;
+    height: 52px;
+    background: #0072BC;
+    border-radius: 50px;
+    padding: 11px;
+    border: #fff solid 3px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+}
+
+.lm-active img {
+    width: 65px;
+    height: 65px;
+}
+
+.lm-active p {
+    padding-left: 80px;
+    min-width: 280px;
+    background: #0072bc;
+    color: #fff;
+}
+
+.lm-text {
+    background: rgba(255, 255, 255, 0.78);
+    line-height: 2;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.lm-text h3 {
+    color: #72BF44;
+    margin: 0;
+
+}
+
+.lm-text p {
+    margin: 0;
+
+}
+
+.hf-parent {
+    margin: 55px 8%;
+}
+
+.hf-info-parent {
+    display: inline-block;
+    text-align: center;
+}
+
+.hf-info-parent h1 {
+
+    background: #0072BC;
+    color: #fff;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 20px;
+    text-align: center;
+    -webkit-box-shadow: #ddd 0 6px 0;
+    box-shadow: #ddd 0 6px 0;
+}
+
+.hf-info-parent p {
+    line-height: 2;
+    text-align: left;
+    margin: 20px;
+}
+
+.contact-parent {
+    padding: 50px 0;
+}
+
+.contact-info {
+    width: 65%;
+}
+
+.contact-parent img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.cards-parent {
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+}

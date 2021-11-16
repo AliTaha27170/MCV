@@ -1,0 +1,136 @@
+.pro-head img {
+    width: 460px !important;
+    display: block;
+    margin: auto;
+    box-shadow: none;
+}
+
+.info-body.pro-head {
+    display: block;
+    margin-top: 65px;
+}
+
+.pro-head h1 {
+
+    color: #0072BC;
+    font-size: 35px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.pro-head h3 {
+    color: #73BE46;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.pro-head .category-span {
+    color: #73BE46;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.pro-head .code-span {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #6E6E6E;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pro-head .order-text a{
+    color: #0072BC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pro-head .btn1{
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 6px 33px;
+}
+
+.pro-head .btn1 span{
+    font-size: 43px;
+    padding-right: 15px;
+}
+
+.pro-head .btn-parent{
+    text-align: center;
+}
+
+.pro-head .btn1 p{
+    margin: 0;
+    line-height: 22px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.pro-head p {
+    line-height: 2;
+    text-align: left;
+}
+
+.med-serving p {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    color: #0072BC;
+}
+
+.med-serving img {
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+
+.med-serving div {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    background: #F6F6F6;
+    color: #6E6E6E;
+    padding: 10px;
+}
+
+table>th {
+    width: 50%;
+}
+
+table tr td:first-child{
+    text-align: left;
+}
+table td{
+    padding: 13px;
+    border-bottom: 1px #ddd solid;
+    border-right: 1px #ddd solid;
+}
+
+.direc-parent img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.direc-parent h3 {
+    color: #73BE46;
+}
+
+.direc-parent p {
+    line-height: 2;
+}
