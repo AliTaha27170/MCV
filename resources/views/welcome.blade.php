@@ -669,7 +669,7 @@
           <h4>{{$product->product->category->name}}</h4>
         </div>
       </div>
-      <hr />
+      <hr/>
       <p>
       {{$product->product->name}}.
       </p>

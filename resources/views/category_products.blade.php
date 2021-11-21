@@ -53,7 +53,28 @@
                         if 60 ct -> add class "med-60"
                         ///////////////////////////////////////////////
                         -->
-                        <div class="med-card med-120">
+                                                <!-- New Card -->
+                        <div class="card card-item">
+                        <img src="/img/products/{{$product->image}}" alt="" />
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="card-title">
+                            <h4>{{$product->brand->name}}</h4>
+                            </div>
+                        </div>
+                        <hr/>
+                        <p>
+                        {{$product->name}}.
+                        </p>
+                        <div class="btn-group">
+                            <div class="btn">
+                            <a href="/products/{{$product->id}}">Preview Product</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- New Card -->
+                        <!-- <div class="med-card med-120">
                             <div class="img-parent">
                                 <img src="/img/products/{{$product->image}}" class="" alt="">
                             </div>
@@ -64,9 +85,9 @@
                                     <a href="/products/{{$product->id}}" class="btn1">Preview Product</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     @elseif($product->product_detail->serving_per_container==60)
-                    <div class="med-card med-60">
+                    <!-- <div class="med-card med-60">
                             <div class="img-parent">
                                 <img src="/img/products/{{$product->image}}" class="" alt="">
                             </div>
@@ -77,9 +98,30 @@
                                     <a href="/products/{{$product->id}}" class="btn1">Preview Product</a>
                                 </div>
                             </div>
+                        </div> -->
+                        <!-- New Card -->
+                        <div class="card card-item">
+                        <img src="/img/products/{{$product->image}}" alt="" />
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="card-title">
+                            <h4>{{$product->brand->name}}</h4>
+                            </div>
                         </div>
+                        <hr/>
+                        <p>
+                        {{$product->name}}.
+                        </p>
+                        <div class="btn-group">
+                            <div class="btn">
+                            <a href="/products/{{$product->id}}">Preview Product</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- New Card -->
                         @else
-                        <div class="med-card">
+                        <!-- <div class="med-card">
                             <div class="img-parent">
                                 <img src="/img/products/{{$product->image}}" alt="">
                             </div>
@@ -90,10 +132,31 @@
                                     <a href="/products/{{$product->id}}" class="btn1">Preview Product</a>
                                 </div>
                             </div>
+                        </div> -->
+                        <!-- New Card -->
+                        <div class="card card-item">
+                        <img src="/img/products/{{$product->image}}" alt="" />
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="card-title">
+                            <h4>{{$product->brand->name}}</h4>
+                            </div>
                         </div>
+                        <hr/>
+                        <p>
+                        {{$product->name}}.
+                        </p>
+                        <div class="btn-group">
+                            <div class="btn">
+                            <a href="/products/{{$product->id}}">Preview Product</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- New Card -->
                         @endif
                         @else
-                        <div class="med-card">
+                        <!-- <div class="med-card">
                             <div class="img-parent">
                                 <img src="/img/products/{{$product->image}}" alt="">
                             </div>
@@ -104,10 +167,31 @@
                                     <a href="/products/{{$product->id}}" class="btn1">Preview Product</a>
                                 </div>
                             </div>
+                        </div> -->
+                        <!-- New Card -->
+                        <div class="card card-item">
+                        <img src="/img/products/{{$product->image}}" alt="" />
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="card-title">
+                            <h4>{{$product->brand->name}}</h4>
+                            </div>
                         </div>
+                        <hr/>
+                        <p>
+                        {{$product->name}}.
+                        </p>
+                        <div class="btn-group">
+                            <div class="btn">
+                            <a href="/products/{{$product->id}}">Preview Product</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- New Card -->
                         @endif
                         @else
-                        <div class="med-card med-120">
+                        <!-- <div class="med-card med-120">
                             <div class="img-parent">
                                 <img src="/img/products/{{$product->image}}" alt="">
                             </div>
@@ -118,7 +202,28 @@
                                     <a href="/products/{{$product->id}}" class="btn1">Preview Product</a>
                                 </div>
                             </div>
+                        </div> -->
+                        <!-- New Card -->
+                        <div class="card card-item">
+                        <img src="/img/products/{{$product->image}}" alt="" />
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="card-title">
+                            <h4>{{$product->brand->name}}</h4>
+                            </div>
                         </div>
+                        <hr/>
+                        <p>
+                        {{$product->name}}.
+                        </p>
+                        <div class="btn-group">
+                            <div class="btn">
+                            <a href="/products/{{$product->id}}">Preview Product</a>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <!-- New Card -->
                         @endif
                     @endforeach
         

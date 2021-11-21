@@ -299,14 +299,15 @@ ul.nav-drop li a:hover {
 }
 
 .btn1 {
-    border: none;
-    background: #72BF44;
+    padding: 10px 20px;
+    background-color: #73bf46;
     color: #fff;
-    border-radius: 27px 8px;
-    padding: 10px 30px;
+    border-radius: 3px;
+    margin-left: 0;
     text-decoration: none;
-    cursor: pointer;
-    display: inline-block;
+}
+.btn1:hover{
+    background-color: #58a32d;
 }
 
 .input1 {
@@ -539,6 +540,12 @@ ul.nav-drop li a:hover {
 .cards-table {
     width: 100%;
     text-align: center;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .cards-table .med-card {
@@ -728,7 +735,7 @@ ul.nav-drop li a:hover {
     }
 
     body .pro-head img {
-        width: 70%;
+        width: 100%;
     }
 
     body .cards-table .med-card {
